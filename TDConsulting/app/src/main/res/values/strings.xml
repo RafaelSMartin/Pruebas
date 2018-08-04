@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">TDConsulting</string>
+
+    <!-- LoginActivity -->
+    <string name="autenticating">Logueando&#8230;</string>
+    <string name="login_success">Logueado!!</string>
+    <string name="login_failed">Fallo de login :(</string>
+    <string name="email_error">Introduce un usuario valido</string>
+    <string name="email_empty">Introduce usuario</string>
+    <string name="pass_error">Introduce un pass de 4 a 10 caracteres</string>
+    <string name="pass_empty">Introduce password</string>
+    <string name="login_empty">Introduce usuario y password</string>
+    <string name="volley_response_error">ErrorVolleyResponse, Status diferente de 200</string>
+    <string name="error_prefereces">ErrorPreferences, algo ha pasado en preferences</string>
+
+    <string name="prompt_email">Usuario</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in_short">Registro</string>
+    <string name="error_invalid_email">Usuario invalido</string>
+    <string name="error_invalid_password">Password muy corto</string>
+    <string name="error_incorrect_password">Password incorrecto</string>
+    <string name="error_field_required">Campo requerido</string>
+
+
+</resources>

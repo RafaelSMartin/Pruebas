@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "666392175981",
+    "firebase_url": "https://universapptest.firebaseio.com",
+    "project_id": "universapptest",
+    "storage_bucket": "universapptest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:666392175981:android:16622bdcb8043057",
+        "android_client_info": {
+          "package_name": "com.rafaels.universapptest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "666392175981-bph3p53m6ej80p118vadb3cocbnoeqfv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rafaels.universapptest",
+            "certificate_hash": "bd7bb4e6c35f95bf4b8e17a5f00f42e676a876e0"
+          }
+        },
+        {
+          "client_id": "666392175981-l4leuckm2bv2d6hadi1nq293s43ts8pj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAldjf_-92Yn0C76pM2F_Mi_Or8fzSE18"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "666392175981-l4leuckm2bv2d6hadi1nq293s43ts8pj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

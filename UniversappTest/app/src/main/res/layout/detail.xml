@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:layout_margin="16dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="MissingPrefix"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/image_custom"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:src="@mipmap/ic_launcher"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:layout_weight="50"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.CardView
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                card_view:cardUseCompatPadding="true"
+                card_view:cardBackgroundColor="@color/colorAccent"
+                card_view:cardElevation="2dp"
+                card_view:cardCornerRadius="4dp">
+                <TextView
+                    android:layout_margin="8dp"
+                    android:padding="8dp"
+                    android:text="Nombre"
+                    fontPath="fonts/Dehasta.otf"
+                    android:textColor="@android:color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </android.support.v7.widget.CardView>
+            <TextView
+                android:layout_marginLeft="16dp"
+                android:padding="8dp"
+                android:id="@+id/nombre_custom"
+                android:text="Rafael"
+                fontPath="fonts/Dehasta.otf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:layout_weight="50"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.CardView
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                card_view:cardUseCompatPadding="true"
+                card_view:cardBackgroundColor="@color/colorAccent"
+                card_view:cardElevation="2dp"
+                card_view:cardCornerRadius="4dp">
+                <TextView
+                    android:layout_margin="8dp"
+                    android:padding="8dp"
+                    android:text="Apellido"
+                    fontPath="fonts/Dehasta.otf"
+                    android:textColor="@android:color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </android.support.v7.widget.CardView>
+            <TextView
+                android:layout_marginLeft="16dp"
+                android:padding="8dp"
+                android:id="@+id/apellido_custom"
+                android:text="Martin"
+                fontPath="fonts/Dehasta.otf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:layout_weight="50"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.CardView
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                card_view:cardUseCompatPadding="true"
+                card_view:cardBackgroundColor="@color/colorAccent"
+                card_view:cardElevation="2dp"
+                card_view:cardCornerRadius="4dp">
+                <TextView
+                    android:layout_margin="8dp"
+                    android:padding="8dp"
+                    android:text="Telefono"
+                    fontPath="fonts/Dehasta.otf"
+                    android:textColor="@android:color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </android.support.v7.widget.CardView>
+            <TextView
+                android:layout_marginLeft="16dp"
+                android:padding="8dp"
+                android:id="@+id/telefono_custom"
+                android:text="666864748"
+                fontPath="fonts/Dehasta.otf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:layout_weight="50"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.CardView
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                card_view:cardUseCompatPadding="true"
+                card_view:cardBackgroundColor="@color/colorAccent"
+                card_view:cardElevation="2dp"
+                card_view:cardCornerRadius="4dp">
+                <TextView
+                    android:layout_margin="8dp"
+                    android:padding="8dp"
+                    android:text="Fecha"
+                    fontPath="fonts/Dehasta.otf"
+                    android:textColor="@android:color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </android.support.v7.widget.CardView>
+            <TextView
+                android:layout_marginLeft="16dp"
+                android:padding="8dp"
+                android:id="@+id/fecha_custom"
+                android:text="19/11/1982"
+                fontPath="fonts/Dehasta.otf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

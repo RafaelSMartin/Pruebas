@@ -1,0 +1,28 @@
+
+Hola, buenos días:
+
+Adjunto el test que ya he realizado y algunas aclaraciones.
+
+Con el tiempo que se me ha asignado he realizado la mayoria 
+de las tareas.
+Con Volley en un singleton application he accedido a la url dada
+y almacenado el contenido en un gson para su posterior utilización.
+Con los datos obtenidos he realizado un recyclerView (con dos ViewHolder)
+con una cabecera mostrando el numero de usuarios y los items 
+de cada usuario con su foto (Glide), nombre y apellido. 
+He incluido una imagen con el genero y los items en un cardView.
+Al hacer click en un item muestro una customView que hereda de LinearLayout
+con los atributos imagen, nombre, apellido, telefono y fecha de nacimiento.
+He utilizado Butterknife para capturar los elementos de XML, 
+Caligrapher para las fuentes, CircleImageView para las imagenes circulares y
+las librerias de gson y material design de Google.
+
+Debido al limitado tiempo, he intentado almacenar en SQLite y ContentProvider
+el JSON de la url pero, he visto que iba a invertir demasiado tiempo y
+he mantenido el almacenamiento en GSon.
+En cuanto a la composición de vista y elementos, la vista del detalle
+de usuarios es un poco fea para mi gusto, pero hacer una customView y
+que salga bonita requiere más tiempo para pensar bien el diseño.
+
+
+
